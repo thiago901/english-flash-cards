@@ -254,15 +254,11 @@ const allCards = {
     },
   ],
   behavioral: [
-    {
-      question:
-        "Tell me about a challenging project you worked on and how you handled it.",
-      answer:
-        "In a project integrating APIs from FIS and FISERV, I faced data inconsistencies. I designed robust validation layers and implemented retries, ensuring reliable data flow without blocking the entire pipeline.",
-      question_pt:
-        "Fale sobre um projeto desafiador em que trabalhou e como lidou com ele.",
-      answer_pt:
-        "Em um projeto integrando APIs da FIS e FISERV, enfrentei inconsistências de dados. Projetei camadas robustas de validação e implementei retries, garantindo fluxo confiável sem bloquear toda a pipeline.",
+     {
+      question: "Tell me about a challenging project you worked on and how you handled it.",
+      answer: "I led a refactoring initiative on a CMS API for Volkswagen. The challenge was ensuring the system supported multiple countries and permissions. I redesigned the data models and implemented permission layers, significantly improving flexibility.",
+      question_pt: "Conte sobre um projeto desafiador que você trabalhou e como o lidou.",
+      answer_pt: "Liderei uma iniciativa de refatoração em uma API CMS da Volkswagen. O desafio era garantir suporte a múltiplos países e permissões. Redesenhei os modelos de dados e implementei camadas de permissão, melhorando bastante a flexibilidade."
     },
     {
       question: "How do you manage deadlines when working on multiple tasks?",
